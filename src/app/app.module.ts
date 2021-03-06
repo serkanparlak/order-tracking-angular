@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OrderListComponent } from './components/order-list/order-list.component';
 import { SharedModule } from './shared/shared.module';
+import { ProductsComponent } from './components/products/products.component';
+import { ProductTileComponent } from './components/product-tile/product-tile.component';
 
 /* register locale tr */
 registerLocaleData(localeTr, 'tr');
 
 @NgModule({
-  declarations: [AppComponent, OrderListComponent],
+  declarations: [AppComponent, OrderListComponent, ProductsComponent, ProductTileComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

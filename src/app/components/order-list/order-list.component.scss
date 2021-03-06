@@ -1,3 +1,12 @@
-table {
-    min-width: 500px;
+:host {
+    flex: 3;
+
+    mat-card {
+        height: 100%;
+        flex-direction: column;
+        
+        mat-card-content {
+            flex: 1;
+        }
+    }
 }

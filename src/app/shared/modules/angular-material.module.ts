@@ -14,6 +14,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatRippleModule } from '@angular/material/core';
 
 @NgModule({
   imports: [],
@@ -33,6 +34,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatPaginatorModule,
     MatTabsModule,
     MatDividerModule,
+    MatRippleModule,
   ],
   providers: [],
 })
