@@ -10,6 +10,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSortModule } from '@angular/material/sort';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   imports: [],
@@ -25,6 +29,10 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatSlideToggleModule,
     MatSortModule,
     MatStepperModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatTabsModule,
+    MatDividerModule,
   ],
   providers: [],
 })

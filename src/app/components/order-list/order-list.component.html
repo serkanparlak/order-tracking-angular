@@ -1,1 +1,23 @@
-<button mat-button>Deneme</button>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title> SİPARİŞLER </mat-card-title>
+    <mat-card-subtitle> {{ today | date: "fullDate" }} </mat-card-subtitle>
+  </mat-card-header>
+  <mat-divider><!-- divider --></mat-divider>
+  <mat-card-content class="mt-3">
+    <table matSort>
+      <tr>
+        <th mat-sort-header="no">No</th>
+        <th mat-sort-header="name">Name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Serkan</td>
+      </tr>
+    </table>
+  </mat-card-content>
+  <mat-divider><!-- divider --></mat-divider>
+  <mat-card-footer>
+    <mat-paginator> </mat-paginator>
+  </mat-card-footer>
+</mat-card>
