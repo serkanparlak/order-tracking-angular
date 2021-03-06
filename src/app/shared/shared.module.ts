@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
+import AngularMaterialModule from './modules/angular-material.module';
 
 
 @NgModule({
     imports: [],
-    exports: [],
+    exports: [
+        /* Angular Material */
+        AngularMaterialModule
+    ],
     declarations: [],
     providers: [],
 })
