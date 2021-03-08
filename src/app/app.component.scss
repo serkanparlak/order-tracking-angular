@@ -96,7 +96,7 @@ p {
     &.mat-card-flex {
       display: flex;
 
-      .mat-divider-horizontal {
+        > .mat-divider-horizontal {
         left: -16px;
         position: relative;
         width: calc(100% + 32px);
