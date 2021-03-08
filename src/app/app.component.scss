@@ -84,8 +84,15 @@ p {
 }
 
 ::ng-deep {
-  /*  mat-card(display:flex) içerisindeki mat-divider'in bozulmamsı için eklendi */
   .mat-card {
+    margin: 3px;
+    background-color: rgba($color: #fff, $alpha: 0.7);
+
+    .mat-paginator {
+      background-color: transparent;
+    }
+
+    /*  mat-card(display:flex) içerisindeki mat-divider'in bozulmamsı için eklendi */
     &.mat-card-flex {
       display: flex;
 
