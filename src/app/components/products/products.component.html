@@ -3,7 +3,12 @@
     <mat-card-title>ÜRÜNLER</mat-card-title>
     <mat-card-subtitle>Toplam ürün: <strong>(5)</strong></mat-card-subtitle>
     <div>
-      <button mat-icon-button color="primary" matTooltip="Yeni Ürün Ekle">
+      <button
+        mat-icon-button
+        color="primary"
+        matTooltip="Yeni Ürün Ekle"
+        (click)="openProductAddDialog()"
+      >
         <mat-icon>add_circle</mat-icon>
       </button>
     </div>

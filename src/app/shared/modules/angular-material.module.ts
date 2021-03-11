@@ -5,6 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
@@ -16,6 +17,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatRippleModule } from '@angular/material/core';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   imports: [],
@@ -26,6 +28,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatCheckboxModule,
     MatExpansionModule,
     MatFormFieldModule,
+    MatInputModule,
     MatIconModule,
     MatSelectModule,
     MatSlideToggleModule,
@@ -37,6 +40,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatDividerModule,
     MatRippleModule,
     MatTooltipModule,
+    MatDialogModule,
   ],
   providers: [],
 })

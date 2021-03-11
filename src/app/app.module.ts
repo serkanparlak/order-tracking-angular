@@ -10,6 +10,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductTileComponent } from './components/product-tile/product-tile.component';
 import { CartComponent } from './components/cart/cart.component';
 import { CartProductComponent } from './components/cart-product/cart-product.component';
+import { ProductAddDialogComponent } from './components/product-add-dialog/product-add-dialog.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxWebstorageModule } from 'ngx-webstorage';
 
 /* register locale tr */
 registerLocaleData(localeTr, 'tr');
@@ -22,12 +25,15 @@ registerLocaleData(localeTr, 'tr');
     ProductTileComponent,
     CartComponent,
     CartProductComponent,
+    ProductAddDialogComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     /* Shared Module */
     SharedModule,
+    NgxWebstorageModule.forRoot({prefix: 'orduevi', separator: '-'})
   ],
   providers: [
     /* use locale tr */
@@ -35,4 +41,4 @@ registerLocaleData(localeTr, 'tr');
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
