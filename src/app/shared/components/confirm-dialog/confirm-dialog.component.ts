@@ -1,7 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { merge } from 'rxjs';
-import { filter } from 'rxjs/operators';
+import { from, merge, of, scheduled } from 'rxjs';
+import { filter, mergeAll } from 'rxjs/operators';
 
 export interface IConfirmDialogData {
   title: string;

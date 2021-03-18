@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { LocalStorageService } from 'ngx-webstorage';
-import { forkJoin, Observable } from 'rxjs';
 import { IProduct } from '../models/product.model';
 
 @Injectable({
